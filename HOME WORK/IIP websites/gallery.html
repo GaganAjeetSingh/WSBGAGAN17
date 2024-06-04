@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> gallery</title>
+	<style type="text/css">
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+
+
+		body {
+
+			background-color: black;
+		}
+
+
+		.main {
+
+			width: 1000px;
+			height: 1060px;
+			margin: 0px 200px;
+		}
+
+		.row1 {
+
+			width: 1000px;
+			height: 200px;
+			background-image: url('Images/headerbg.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+
+		.row1_c1 {
+
+			width: 320px;
+			height: 200px;
+			background-image: url('Images/logo.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			float: left;
+		}
+
+		.row1_c2 {
+
+			width: 350px;
+			height: 160px;
+			float: left;
+			font-size: 20px;
+			text-align: center;
+			font-family: cambira;
+			color: darkblue;
+			padding-top: 40px;
+			font-family: initial;
+
+		}
+
+		.row1_c3 {
+
+			width: 330px;
+			height: 200px;
+			float: left;
+			background-image: url(' Images/topcontactbg.png');
+			background-repeat: no-repeat;
+			background-position: 12px;
+		}
+
+		.url {
+
+			width: 300px;
+			height: 20px;
+			font-size: 20px;
+			line-height: 30px;
+			margin-top: 35px;
+			margin-left: 20px;
+
+		}
+
+		.email {
+
+			width: 300px;
+			height: 20px;
+			font-size: 20px;
+			line-height: 30px;
+			margin-left: 20px;
+			font-weight: bold;
+			margin-top: 5px;
+
+
+
+
+		}
+
+		.phone {
+
+			width: 300px;
+			height: 30px;
+			font-size: 20px;
+			line-height: 30px;
+			margin-left: 20px;
+			font-weight: bold;
+			color: white;
+			margin-top: 5px;
+
+
+		}
+
+		.row2 {
+
+			width: 1000px;
+			height: 50px;
+			background-image: url('Images/menubg.jpg');
+		}
+
+
+		.menubar {
+
+			width: 1000px;
+			height: 50px;
+			list-style: none;
+		}
+
+		.item {
+
+			width: 127px;
+			height: 44px;
+			float: left;
+			font-weight: bold;
+			text-align: center;
+			line-height: 44px;
+			background-image: url('Images/menubackground.png');
+			border-radius: 10px 10px 0px 0px;
+			margin-left: 15px;
+			margin-top: 9px;
+		}
+
+		.home {
+			margin-left: 60px;
+		}
+
+		.row3 {
+
+			width: 980px;
+			height: 740px;
+			margin: 10px;
+		}
+
+		.row3_c1 {
+
+			width: 210px;
+			height: 240px;
+			margin: 0px 10px;
+			float: left;
+		}
+
+		.sidemenu {
+			width: 210px;
+			height: 240px;
+			list-style: none;
+
+
+		}
+
+		.sideitem {
+
+			width: 210px;
+			height: 40px;
+			background-image: url('Images/leftmenubg.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+			font-size: 15px;
+			line-height: 40px;
+			font-weight: bold;
+		}
+
+		.r3_c2 {
+
+			width: 725px;
+			height: 740px;
+			float: left;
+			margin: 0px 10px;
+			background-color: white;
+		}
+
+		.r3_gallery {
+
+			width: 705px;
+			height: 50px;
+			font-size: 30px;
+			line-height: 50px;
+			margin-left: 20px;
+			font-weight: bold;
+
+		}
+
+		.r3_c2_images {
+
+			width: 710px;
+			height: 690px;
+			margin-left: 15px;
+		}
+
+		.r3_c2_image {
+
+			width: 210px;
+			height: 210px;
+			margin: 10px 0px;
+			margin-right: 20px;
+			float: left;
+		}
+
+		.r3_c4 {
+
+			width: 210px;
+			height: 210px;
+		}
+
+		.row4 {
+
+			width: 1000px;
+			height: 48px;
+		}
+
+		.r4_c1 {
+
+			width: 13px;
+			height: 48px;
+			float: left;
+		}
+
+		.r4_c2 {
+			height: 48px;
+			width: 973px;
+			float: left;
+			background-image: url('Images/footer_middle.png');
+			text-align: center;
+			font-weight: bold;
+			line-height: 48px;
+		}
+
+		.r4_c3 {
+
+			width: 14px;
+			height: 48px;
+			float: left;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="main">
+		<div class="row1">
+			<div class="row1_c1"></div>
+			<div class="row1_c2">
+				LOOKING FOR THE BEST PALCE FOR PROGRAMMIMG
+			</div>
+			<div class="row1_c3">
+				<div class="url">
+					<a href="#">
+						www.lipacadmy.com
+					</a>
+				</div>
+				<div class="email">
+					<a href="mailto:Info@lipacademy.com">
+						Info@lipacademy.com
+					</a>
+				</div>
+				<div class="phone">
+					<a href="tell:91-6376083114">
+						+91-6376083114
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row2">
+			<ul class="menubar">
+				<li class="item home"><a href="Index.html">HOME</a></li>
+				<li class="item"><a href="About.html">ABOUT</a></li>
+				<li class="item"><a href="Course.html">COURSE</a></li>
+				<li class="item"><a href="Gallery.html">GALLERY</a></li>
+				<li class="item"><a href="ENQUIRY.html">ENQUIRY</a></li>
+				<li class="item"><a href="Contact us.html">CONTACT US</a></li>
+			</ul>
+		</div>
+
+		<div class="row3">
+			<div class="row3_c1">
+				<ul class="sidemenu">
+					<li class="sideitem">HOME</li>
+					<li class="sideitem">ABOUT</li>
+					<li class="sideitem">COURSE</li>
+					<li class="sideitem">GALLERY</li>
+					<li class="sideitem">ENQUIRY</li>
+					<li class="sideitem">CONTACT US</li>
+				</ul>
+
+			</div>
+			<div class="r3_c2">
+				<div class="r3_gallery">
+					Gallery
+				</div>
+
+				<div class="r3_c2_images">
+					<div class="r3_c2_image">
+						<img src="gallery_img/1.jpg" class="r3_c4">
+					</div>
+					<div class="r3_c2_image">
+						<img src="gallery_img/2.jpg" class="r3_c4">
+					</div>
+					<div class="r3_c2_image">
+						<img src="gallery_img/3.jpg" class="r3_c4">
+					</div>
+					<div class="r3_c2_image">
+						<img src="gallery_img/4.jpg" class="r3_c4">
+					</div>
+					<div class="r3_c2_image">
+						<img src="gallery_img/5.jpg" class="r3_c4">
+					</div>
+					<div class="r3_c2_image">
+						<img src="gallery_img/6.jpg" class="r3_c4">
+					</div>
+					<div class="r3_c2_image">
+						<img src="gallery_img/7.jpg" class="r3_c4">
+					</div>
+					<div class="r3_c2_image">
+						<img src="gallery_img/8.jpg" class="r3_c4">
+					</div>
+					<div class="r3_c2_image">
+						<img src="gallery_img/9.jpg" class="r3_c4">
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row4">
+			<div class="r4_c1">
+				<img src="Images/footer_left.png">
+			</div>
+			<div class="r4_c2">
+				Home|About|Course|Gallery|Enquiry|Contact us
+			</div>
+			<div class="r4_c3">
+				<img src="Images/footer_right.png">
+			</div>
+
+		</div>
+
+	</div>
+</body>
+
+</html>
